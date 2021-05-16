@@ -6,6 +6,7 @@ import DeleteIcon from '@material-ui/icons/Delete';
 import StarBorderIcon from '@material-ui/icons/StarBorder';
 import CloudQueueIcon from '@material-ui/icons/CloudQueue';
 import PeopleAltOutlinedIcon from '@material-ui/icons/PeopleAltOutlined';
+import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 
 // Iconos
 import AddIcon from './resources/icons/AddIcon';
@@ -16,10 +17,9 @@ class Sidebar extends React.Component {
         return (
             <div className="Sidebar">
                 <div className="Sidebar-list">
-                    <div className="Sidebar-item">
-                        <button className="Sidebar-button"><AddIcon /><span>Nuevo</span></button>
-                    </div>
-                    <div className="Sidebar-item">
+                    <button className="Sidebar-button"><AddIcon /><span>Nuevo</span></button>
+                    <div className="Sidebar-item active">
+                        <ArrowRightIcon className="Sidebar-arrow-icon"/>
                         <DriveFileIcon className="Sidebar-icon" />
                         <a className="Sidebar-link" href="/mi-unidad">Mi unidad</a>
                     </div>
