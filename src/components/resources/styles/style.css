@@ -1,0 +1,113 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family:  'Google Sans', Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.Navbar{
+    width: 100%;
+    padding: .6% 1.6% .6% 1.6%;
+    border-bottom: 1px solid #dadce0;
+    display: flex;
+}
+.Navbar-brand{
+    margin-bottom: auto;
+    margin-top: auto;
+    display: flex;
+}
+.Navbar-brand img{
+    padding: 0;
+    margin-right: 9.5%;
+    width: 36px; 
+    height: 32px;
+}
+.Navbar-brand span{
+    font-size: 1.4rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #5f6368;
+    padding: 0%;
+}
+.Navbar-form{
+    margin-left: 11%;
+    width: 72.5%;
+    display: flex;
+}
+.Navbar-form .btn-search{
+    height: 47.5px;
+    padding-left: 1.5%;
+    background-color: #f1f3f4;
+    color: #9d7575;
+    border: 0;
+    border-radius: 8px 0px 0px 8px;
+}
+.Navbar-form input{
+    width: 62.5%;
+    height: 46px;
+    font-size: 1rem;
+    background-color: #f1f3f4;
+    border: 0;
+}
+.Navbar-form .btn-arrow{
+    height: 47.5px;
+    padding-right: 1.5%;
+    background-color: #f1f3f4;
+    color: #9d7575;
+    border: 0;
+    border-radius: 0px 8px 8px 0px;
+}
+.Navbar-item{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #5f6368;
+}
+.Navbar-item.settings-icon{
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+.Navbar-item.apps-icon{
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+}
+.Navbar-item.profile-icon{
+    margin-right: 3%;
+}
+
+/* Sidebar */
+.Sidebar{
+    width: 260px;
+    border-right: solid 1px;
+    height: 90vh;
+    position: fixed;
+    left: 0;
+}
+.Sidebar-list{
+    padding-left: 5%;
+    padding-top: 5.5%;
+}
+.Sidebar-button{
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 24px;
+    color: #3c4043;
+    display: flex;
+    font-family: 'Google Sans', Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    height: 48px;
+    width: 135px;
+    margin: 0;
+    padding: 0 25px 0 10px;
+}
+.Sidebar-item{
+    display: flex;
+}
+.Sidebar-button svg{
+    margin: auto;
+}
+.Sidebar-button span{
+    margin: auto;
+}
