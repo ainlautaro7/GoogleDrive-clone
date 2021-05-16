@@ -3,6 +3,7 @@ body{
     margin: 0;
     font-family:  'Google Sans', Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
     overflow-x: hidden;
+    color: #5f6368;
 }
 
 /* Navbar */
@@ -10,7 +11,11 @@ body{
     width: 100%;
     padding: .6% 1.6% .6% 1.6%;
     border-bottom: 1px solid #dadce0;
+    background: #fff;
     display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 2;
 }
 .Navbar-brand{
     margin-bottom: auto;
@@ -44,7 +49,7 @@ body{
     border-radius: 8px 0px 0px 8px;
 }
 .Navbar-form input{
-    width: 62.5%;
+    width: 69%;
     height: 46px;
     font-size: 1rem;
     background-color: #f1f3f4;
@@ -75,39 +80,95 @@ body{
     margin-right: 3%;
 }
 
+/* Actionbar styles*/
+.Actionbar{
+    position: fixed;
+    left: 19%;
+    top: 9.5%;
+    padding: 1%;
+    width: 80.5%;
+    border-bottom: 1px solid #dadce0;
+    background: #fff;
+}
+.Actionbar-action-button{
+    font-size: 18px;
+    background: #fff;
+    border: 0;
+    color: #000;
+}
+
 /* Sidebar */
 .Sidebar{
     width: 260px;
-    border-right: solid 1px;
     height: 90vh;
     position: fixed;
     left: 0;
+    top: 9.5%;
 }
 .Sidebar-list{
-    padding-left: 5%;
     padding-top: 5.5%;
 }
+/* Sidebar item */
+.Sidebar-item{
+    margin-top: 2%;
+    margin-left: 10%;
+    display: flex;
+    padding: 3%;
+    border-radius: 0 24px 24px 0;
+    width: 90%;
+}
+.Sidebar-item.active{
+    background-color: #e8f0fe;
+    margin-left: 0;
+    color: blue;
+}
+.Sidebar-link{
+    color: #5f6368;
+    text-decoration: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10%;
+    font-size: 13px;
+    font-weight: bold;
+}
+.Sidebar-item.active .Sidebar-link{
+    color: blue;
+}
+/* Sidebar Button New */
 .Sidebar-button{
     box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
     background-color: #fff;
     border: 1px solid transparent;
+    margin-bottom: 5%;
+    margin-left: 5%;
     border-radius: 24px;
     color: #3c4043;
     display: flex;
-    font-family: 'Google Sans', Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
-    font-weight: 500;
-    font-size: 14px;
+    font-size: 15px;
     height: 48px;
     width: 135px;
-    margin: 0;
     padding: 0 25px 0 10px;
 }
-.Sidebar-item{
-    display: flex;
-}
 .Sidebar-button svg{
-    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20%;
 }
 .Sidebar-button span{
-    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+/* Sidebar divider */
+.Sidebar-divider{
+    border-bottom: 1px solid #dadce0;
+    width: 95%;
+}
+
+/* Home page styles */
+.Home{
+    width: 80.5%;
+    margin-left: 19%;
+    margin-top: 8.5%;
+    padding-left: 1%;
+    height: 100vh;
 }
