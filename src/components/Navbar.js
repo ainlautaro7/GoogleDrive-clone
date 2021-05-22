@@ -24,7 +24,7 @@ class Navbar extends React.Component {
                 </div>
                 <form className="Navbar-form">
                     <button type="submit" className="btn-search"><SearchIcon /></button>
-                    <input placeholder="  Buscar en Drive" />
+                    <input placeholder="  Search in Drive" />
                     <button type="submit" className="btn-arrow"><ArrowDropDownIcon /></button>
                 </form>
 
