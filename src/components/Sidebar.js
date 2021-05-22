@@ -17,32 +17,36 @@ class Sidebar extends React.Component {
         return (
             <div className="Sidebar">
                 <div className="Sidebar-list">
-                    <button className="Sidebar-button"><AddIcon /><span>Nuevo</span></button>
+                    <button className="Sidebar-button"><AddIcon /><span>New</span></button>
                     <div className="Sidebar-item active">
-                        <ArrowRightIcon className="Sidebar-arrow-icon"/>
+                        <ArrowRightIcon className="Sidebar-arrow-icon" />
                         <DriveFileIcon className="Sidebar-icon" />
-                        <a className="Sidebar-link" href="/mi-unidad">Mi unidad</a>
+                        <a className="Sidebar-link" href="/my-drive">My drive</a>
                     </div>
                     <div className="Sidebar-item">
                         <PeopleAltOutlinedIcon className="Sidebar-icon" />
-                        <a className="Sidebar-link" href="/compartido-conmigo">Compartido conmigo</a>
+                        <a className="Sidebar-link" href="/shared-with-me">Shared with me</a>
                     </div>
                     <div className="Sidebar-item">
                         <QueryBuilderIcon className="Sidebar-icon" />
-                        <a className="Sidebar-link" href="/reciente">Reciente</a>
+                        <a className="Sidebar-link" href="/recent">Recent</a>
                     </div>
                     <div className="Sidebar-item">
                         <StarBorderIcon className="Sidebar-icon" />
-                        <a className="Sidebar-link" href="/destacados">Destacados</a>
+                        <a className="Sidebar-link" href="/starred">Starred</a>
                     </div>
                     <div className="Sidebar-item">
                         <DeleteIcon className="Sidebar-icon" />
-                        <a className="Sidebar-link" href="/papelera">Papelera</a>
+                        <a className="Sidebar-link" href="/trash">Trash</a>
                     </div>
                     <div className="Sidebar-divider"></div>
                     <div className="Sidebar-item">
                         <CloudQueueIcon className="Sidebar-icon" />
-                        <a className="Sidebar-link" href="/almacenamiento">Almacenamiento</a>
+                        <a className="Sidebar-link" href="/storage">Storage</a>
+                    </div>
+                    <div className="Sidebar-item progressbar">
+                        <progress value="30" max="100"/>
+                        <span>3.8 GB of 15 GB used</span>
                     </div>
                 </div>
             </div>

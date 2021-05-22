@@ -164,6 +164,19 @@ body{
     width: 95%;
 }
 
+.Sidebar-item.progressbar{
+    padding-top: 0;
+    padding-left: 3%;
+    display: grid;
+}
+.Sidebar-item progress{
+    height: 12px;
+}
+.Sidebar-item span{
+    margin-top: 2%;
+    font-size: .75rem;
+}
+
 /* Home page styles */
 .Home{
     width: 80.5%;
