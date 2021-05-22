@@ -1,10 +1,16 @@
 import React from 'react';
 
-class Home extends React.Component{
-    render(){
-        return(
+import SectionQuickAccess from './container/SectionQuickAccess';
+import SectionFolders from './container/SectionFolders';
+import SectionFiles from './container/SectionFiles';
+
+class Home extends React.Component {
+    render() {
+        return (
             <div className="Home">
-                <h5>Acceso rápido</h5>
+                <SectionQuickAccess/>
+                <SectionFolders/>
+                <SectionFiles/>
             </div>
         );
     }
