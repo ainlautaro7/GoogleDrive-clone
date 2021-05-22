@@ -2,7 +2,7 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ainlautaro7.github.io/demo/GoogleDrive-clone",
+  "homepage": "https://ainlautaro7.github.io/portfolio/proyectos/googledrive-clone",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
