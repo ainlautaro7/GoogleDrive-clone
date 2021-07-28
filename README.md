@@ -24,7 +24,7 @@ para poder bajar el repositorio solo debe de clonarlo, con el siguiente link:
 https://github.com/ainlautaro7/GoogleDrive-clone.git/
 
 o tambien puede acceder a la demo sin necesidad de bajar el repositorio:
-https://ainlautaro7.github.io/demo/GoogleDrive-clone/
+https://ainlautaro7.github.io/portfolio/proyectos/googledrive-clone/
 
 ## Construido con 🛠️
 
